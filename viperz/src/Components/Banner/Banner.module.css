@@ -1,0 +1,27 @@
+.wrapper{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    color: white;
+    margin: 0px;
+    font-size: 10rem;
+}
+
+.video {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+.subtitle{
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    padding: 0;
+}

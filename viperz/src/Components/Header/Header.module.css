@@ -1,0 +1,27 @@
+.nav{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 16px;
+}
+
+.image {
+    user-select: none;
+    position: absolute;
+    color: white;
+    top: 8px;
+    left: 64px;
+    font-weight: bolder;
+    margin: 0;
+}
