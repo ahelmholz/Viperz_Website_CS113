@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import Header from './Components/Header/Header'
-import Banner from './Components/Banner/Banner'
+import Header from './components/Header/Header'
+import Banner from './components/Banner/Banner'
 import './App.css';
 
 function App() {
