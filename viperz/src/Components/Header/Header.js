@@ -6,16 +6,16 @@ const Header = (props) => {
         <nav className={classes.nav}>
             <ul className={classes.menu}>
                 <li>
-                    <a href='hi there' >Store</a>
+                    <a href="/store" >Store</a>
                 </li>
                 <li>
-                    <a href='hi there'>Overview</a>
+                    <a href="/overview">Overview</a>
                 </li>
                 <li>
-                    <a href='hi there'>Media</a>
+                    <a href="/media">Media</a>
                 </li>
                 <li>
-                    <a href='hi there'>About Us</a>
+                    <a href="/aboutus">About Us</a>
                 </li>
             </ul>
             <h1 className={classes.image}>Logo</h1>
