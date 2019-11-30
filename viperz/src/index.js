@@ -1,19 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router} from 'react-router-dom';
+import { Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
-import Home from './pages/Home';
+import { 
+    Home, 
+    Store,
+    OverView,
+    Media,
+    AboutUs
+} from './pages';
 import * as serviceWorker from './serviceWorker';
 
 
 const routing = (
     <Router>
         <div>
-            <Route path={"/"} component={Home} />
-            <Route path={"/store"} component={Home} />
-            <Route path={"/overview"} component={Home} />
-            <Route path={"/media"} component={Home} />
-            <Route path={"/aboutus"} component={Home} />
+            <Route exact path={"/"} component={Home} />
+            <Route path={"/store"} component={Store} />
+            <Route path={"/overview"} component={OverView} />
+            <Route path={"/media"} component={Media} />
+            <Route path={"/aboutus"} component={AboutUs} />
         </div>
     </Router>
 );
